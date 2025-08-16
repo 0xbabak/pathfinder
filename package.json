@@ -8,13 +8,21 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-  },
+  ,
+  "overrides": {
+    "@rollup/rollup-win32-x64-msvc": "npm:@rollup/rollup@^4.0.0"
+  }
+},
   "dependencies": {
     "lucide-react": "^0.539.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.0"
-  },
+  ,
+  "overrides": {
+    "@rollup/rollup-win32-x64-msvc": "npm:@rollup/rollup@^4.0.0"
+  }
+},
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@rollup/rollup-win32-x64-msvc": "^4.46.2",
@@ -34,9 +42,21 @@
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
-  },
+  ,
+  "overrides": {
+    "@rollup/rollup-win32-x64-msvc": "npm:@rollup/rollup@^4.0.0"
+  }
+},
   "optionalDependencies": {
     "@tailwindcss/oxide-wasm32-wasi": "^4.1.11",
     "@tailwindcss/oxide-win32-x64-msvc": "^4.1.11"
+  ,
+  "overrides": {
+    "@rollup/rollup-win32-x64-msvc": "npm:@rollup/rollup@^4.0.0"
+  }
+}
+,
+  "overrides": {
+    "@rollup/rollup-win32-x64-msvc": "npm:@rollup/rollup@^4.0.0"
   }
 }
